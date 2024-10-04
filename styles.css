@@ -1,7 +1,7 @@
 body{
     margin: 0 10% 0 10%;
 }
-/* Imagen de bienvenida ocupa el 100% de la pantalla */
+
 .bienvenida {
     background-size: cover;
     background-position: center;
@@ -18,12 +18,11 @@ body{
 
 .bienvenida h2 {
     font-size: 3em;
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 20px;
     border-radius: 10px;
     }
 
-/* Modales que ocupan el 80% de la pantalla */
 .modal-dialog {
     width: 50%;
     max-width: 50%;
@@ -32,7 +31,7 @@ body{
     }
 
 .modal-content {
-    height: 50%; /* El contenido también debe ocupar toda la altura */
+    height: 50%; 
     }
 
 .modal-body{
@@ -65,6 +64,35 @@ body{
     }
     img{
         width: 40%;
+    } 
+}
+
+/* Estilo general para el modal */
+.modal-content {
+    width: auto; /* Asegúrate de que no tenga un tamaño fijo */
+    height: auto; /* Asegúrate de que no tenga un tamaño fijo */
+}
+
+
+@media (max-width: 768px) {
+    .modal-dialog {
+        width: 90%; 
+        margin: 10px auto;
     }
-    
+
+    .modal-content {
+        height: auto;
+        padding: 10px; 
+    }
+
+    .modal-body {
+        overflow-y: auto; 
+        max-height: 70vh;
+    }
+
+   
+    .modal-body img {
+        max-width: 100%; 
+        height: auto; 
+    }
 }
