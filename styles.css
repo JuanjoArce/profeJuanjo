@@ -1,0 +1,70 @@
+body{
+    margin: 0 10% 0 10%;
+}
+/* Imagen de bienvenida ocupa el 100% de la pantalla */
+.bienvenida {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+        img {
+            padding: 5% 15% 0px 15%;
+            width: 100%;
+            }
+    }
+
+.bienvenida h2 {
+    font-size: 3em;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    }
+
+/* Modales que ocupan el 80% de la pantalla */
+.modal-dialog {
+    width: 50%;
+    max-width: 50%;
+    height: 50%;
+    max-height: 50%;
+    }
+
+.modal-content {
+    height: 50%; /* El contenido también debe ocupar toda la altura */
+    }
+
+.modal-body{
+    .contactame{
+        display: flex;
+    }
+}
+
+.contactame{
+    display: flex;
+    flex-direction: column;
+    p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    h4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.logo {
+    display: flex;
+    a{
+        display: flex;
+        justify-content: center;
+    }
+    img{
+        width: 40%;
+    }
+    
+}

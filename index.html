@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu profe particular Juanjo</title>
+    <link rel="icon" href="./img/Bien.jpg" type="image/x-icon">
+    <!-- Importar Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+    <!-- Sección de Bienvenida -->
+    <div class="bienvenida">
+        <img src="./img/Bien.jpg" alt="">
+    </div>
+
+    <!-- Tarjetas Pop-Up usando Bootstrap -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Tarjeta 1 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Sobre mí</h5>
+                        <p class="card-text">Descubre mi historia, mis motivaciones y lo que me apasiona en el desarrollo del aprendizaje.</p>
+                        <!-- Botón que activa el modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSobreMi">
+                            Leer más
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Mis Proyectos</h5>
+                        <p class="card-text">Un vistazo a algunos de los proyectos en los que he trabajado, reflejando mi estilo y capacidades.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalProyectos">
+                            Ver proyectos
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 3 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Contáctame</h5>
+                        <p class="card-text">¿Interesado en colaborar o necesitas mis servicios? Hablemos.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalContacto">
+                            Contáctame
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Sobre mí -->
+    <div class="modal fade" id="modalSobreMi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sobre mí</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Mi enfoque va más allá de simplemente enseñar una materia. Creo firmemente que el aprendizaje es un proceso integral que debe involucrar tanto el conocimiento como la capacidad de planificar y ejecutar actividades. Mi objetivo es no solo ayudarte a dominar los temas que estudias, sino también a desarrollar habilidades de organización, planificación y enfoque.
+
+                    A través de mi apoyo, te guiaré para que puedas crear una estructura clara y efectiva para estudiar o realizar cualquier actividad académica. Aprenderemos juntos a definir objetivos, organizar tu tiempo y establecer pasos prácticos que te acerquen al éxito en cada tarea. Estoy aquí para brindarte las herramientas necesarias para que no solo aprendas, sino que también crezcas en el proceso, desarrollando hábitos que te servirán a lo largo de toda tu vida.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Proyectos -->
+    <div class="modal fade" id="modalProyectos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Mis Proyectos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Mis principales trabajos se desarrollaron en las áreas de ventas y atención al cliente, donde tuve la oportunidad de desempeñar diferentes tareas y adquirir experiencia en varios sectores. Para conocer más sobre mi recorrido profesional, te invito a visitar mi perfil de LinkedIn, donde detallo las responsabilidades y logros alcanzados en cada etapa de mi carrera: Mi LinkedIn.
+
+                    Con el tiempo, decidí dar un giro profesional hacia el desarrollo web, lo cual representó un gran desafío. Volver a estudiar y aprender nuevos conceptos me permitió entender que existen diferentes formas de estudiar, y fue a través de este proceso que descubrí mi capacidad para adaptarme y seguir creciendo. Actualmente, soy desarrollador web y sigo aprendiendo, siempre en busca de mejorar mis habilidades.
+
+                    Además, he encontrado mi verdadera vocación en la enseñanza. Paralelamente, he comenzado a impartir clases de introducción a la tecnología para adultos mayores en la plataforma TusClasesParticulares, donde he tenido la oportunidad de guiar a personas mayores en el uso de la tecnología, un campo que me apasiona.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Contáctame -->
+    <div class="modal fade" id="modalContacto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contáctame</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="contactame">
+                        <h6>
+                            Si estás interesado en colaborar o necesitas mis servicios, no dudes en ponerte en contacto conmigo. A continuación, te dejo mis datos:
+                        </h6>
+                        
+                        <h4>j10811164@gmail.com </h4>
+                        
+                        <div class="logo">
+                            <a target="_blank" href="https://www.linkedin.com/in/arceherrerajuanjose/"><img src="./img/Diseño sin título (1).png" alt=""></a>
+                            <a target="_blank" href="https://www.tusclases.com.ar/profesores/juan-jose-arce-herrera.htm"><img src="./img/tusclases.png" alt=""></a>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
